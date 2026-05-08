@@ -2,33 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Blog preview card</title>
+  <link rel="stylesheet" href="styles.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <title>Tarjeta HTML</title>
 </head>
 <body>
+  <div class="tarjeta">
 
-  Learning
+    <img class="principal" src="/assets/images/illustration-article.svg">
+    <div class="titulo_uno">
+      <span>Learning</span>
+    </div>
+    <div>
+      <p class="fecha">Published 21 Dec 2023</p>
+    </div>
 
-  Published 21 Dec 2023
+    <div>
+      <h2 class="titulo_dos">HTML & CSS foundations</h2>
+    </div>
 
-  HTML & CSS foundations
+    <div>
+      <p class="parrafo">These languages are the backbone of every website, 
+      defining structure, content, and presentation.</p>
+    </div>
+    
+    <div class="firma">
+      <img src="/assets/images/image-avatar.webp" height="30px">
+      <p>Greg Hooper</p>
+    </div>
 
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-  
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+  </div>
 </body>
 </html>
